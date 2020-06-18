@@ -97,7 +97,7 @@ y4 = y4+(e*2);
 x4 = x4+(e*2);
  filter(BLUR,e);
 } else if ( y ==3 ) {
-  y4 = 0;
+ 
     // sin(frequency) * amplitude
     noTint()
     let e =0;
@@ -106,7 +106,7 @@ x4 = x4+(e*2);
     image(img1[e], 220 + x4, y4, 80, 80);
     y4 = y4+2;
 } else if ( y == 4 ){
-   y4 = 0;
+
   let e =0;
    e = Math.round(random(1,5)); //fetcing random image
    tint(0, 153, 204, 126);
@@ -166,13 +166,16 @@ function gitter() {
 }
 
 function blur() {
+   y4 = 0;
       y = 2;
 }
 
 function sinewave() {
   y=3;
+   y4 = 0;
 }
 
 function pattern() {
   y = 4;
+   y4 = 0;
 }
