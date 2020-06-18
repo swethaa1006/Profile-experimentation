@@ -158,7 +158,7 @@ function clean(){
     y4 = 0;
 }
 function saveScreenSaver() {
-  save('myCanvas.jpg');
+  save('Profile photo.jpg');
 }
 
 function gitter() {
