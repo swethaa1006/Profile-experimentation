@@ -12,5 +12,5 @@ Note:
  2. Sine Wave: Creates sine wave from your profile pictures..
  3. Blur: randomy sows blured images
  4. Gitter: randamly places all the images and starts gitterinng.                                                             
-5: reset As the name goes resets entire screen                                                                         
-6: Save: Saves the image
+ 5. reset: As the name goes resets entire screen                                                                         
+ 6. Save: Saves the image
