@@ -65,6 +65,15 @@ function setup() {
   button5.position(190, 40);
   button5.style("background-color: #303030; border: none;  color: #00ff10; padding: 15px 32px;  font-size: 16px;");
   button5.mousePressed(pattern);
+
+  textSize(25);
+  text("1. Patter: Creates a patteren by overlapping randomly feting your profile images",200,200);
+  text("2. Sine Wave: Creates sine wave from your profile pictures",200,240);
+  text("3. Blur: Randomy shows blured images",200,280);
+  text("4. Gitter: Randamly places all the images and starts gittering",200,320);
+  text("5. Reset: As the name goes resets entire screen",200,360);
+  text("6. Save: Saves the image",200,400);
+
 }
 
 
