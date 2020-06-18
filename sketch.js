@@ -80,7 +80,6 @@ function draw() {
       bubbles[i].show();
     }
   } else if (y == 2) {
-background(220);
 noTint()
 let e = Math.round(random(1,5)); //fetcing random image
  tint(0, 153, 204, 126);
